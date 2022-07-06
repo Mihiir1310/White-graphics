@@ -1,0 +1,344 @@
+/**
+ * style.css
+ * Contains CSS to make site responsive i.e. mobile and tab friendly.
+ */
+
+.vertical-heading{
+    text-align: center;
+}
+.vertical-heading h5{
+    transform: rotate(0deg);
+    display: block;
+    position: static;
+    margin-bottom: 15px;
+}
+.vertical-heading h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+/******************************************************************************************************************************************************************
+                                                        HOME SECTION
+******************************************************************************************************************************************************************/
+#home-heading{
+    font-size: 2rem;
+}
+#home-text{
+    font-size: 12px;
+    margin: 3px 0 20px 0;
+}
+#home-btn .btn-general{
+    font-size: 10px;
+    padding: 6px 23px;
+    margin: 10px 0;
+}
+
+/******************************************************************************************************************************************************************
+                                                        ABOUT SECTION
+******************************************************************************************************************************************************************/
+#about-01 .content-box-lg{
+    padding: 60px 0 100px 0;
+}
+#about-01 .col-md-12{
+    padding: 0;
+}
+#about-left .vertical-heading h2{
+    line-height: 35px;
+}
+.col-md-12 .m-t-70{
+    margin-top: 0px;
+}
+#about-01 .row{
+    margin-bottom: 0;
+}
+#about-right p{
+    font-size: 11px;
+}
+#about-02 .col-md-4{
+    float: none;
+    width: 100%;
+}
+#about-02 .row-eq-height{
+    display: block;
+}
+.about-item i{
+    font-size: 30px;
+}
+.about-item h3{
+    font-size: 18px;
+}
+.about-item p{
+    font-size: 11px;
+}
+#about-02 .content-box-md{
+    padding: 70px 0;
+}
+
+/******************************************************************************************************************************************************************
+                                                        TEAM SECTION
+******************************************************************************************************************************************************************/
+#team .content-box-lg{
+    padding: 80px 0;
+}
+#team-left .vertical-heading h2{
+    line-height: 28px;
+}
+#team-left p{
+    font-size: 11px;
+}
+
+#team [class*="col-"]{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.skill h4{
+    font-size: 12px;
+}
+.progress{
+    height: 10px;
+}
+.progress-bar span{
+    font-size: 10px;
+}
+
+/******************************************************************************************************************************************************************
+                                                        STATEMENT SECTION
+******************************************************************************************************************************************************************/
+#statement h3{
+    font-size: 18px;
+    line-height: 25px
+}
+
+/******************************************************************************************************************************************************************
+                                                        SERVICE SECTION
+******************************************************************************************************************************************************************/
+#services-01 img{
+    margin: 0;
+}
+.service .icon{
+    font-size: 30px;
+}
+.service .text-right{
+    text-align: center;
+}
+.service h5{
+    text-align: center;
+}
+.service h3{
+    text-align: center;
+    font-size: 18px;
+}
+.service p{
+    font-size: 14px;
+}
+.service{
+    margin-bottom: 30px;
+}
+#.btn-general{
+    text-align: right;
+    font-size: 10px;
+    padding: 6px 24px;
+    margin: 0 auto;
+}
+#services-tabs ul li.r-tabs-state-active a{
+    color: #5c9320;
+    font-weight: 700;
+    border-bottom: 3px solid #5c9320;
+}
+.service-tab h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 20px 0;
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+}
+.service-tab h3{
+    font-size: 22px;
+    text-align: center;
+}
+.service-tab .service-tab-bg{
+    background-color: #fff;
+    padding: 25px 15px;
+    min-height: 350px;
+}
+.service-tab .service-tab-bg p{
+    font-size: 14px;
+    text-align: center;
+}
+.service-tab .service-tab-bg .btn-general{
+    font-family: 'Raleway',sans-serif;
+    border-radius: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 6px 23px;
+    transition: all .5s;
+    position: absolute;
+    top: 70%;
+    left: -10%;
+}
+#services-tabs a{
+    margin-left: 270px;
+}
+/******************************************************************************************************************************************************************
+                                                        TESTIMONIAL SECTION
+******************************************************************************************************************************************************************/
+#testimonial-slider{
+    background-color: #5c9320;
+    transform: translateY(0px);
+}
+#testimonials .vertical-heading h2{
+    font-size: 22px;
+    line-height: 22px;
+}
+.testimonial h2{
+    font-size: 18px;
+}
+.testimonial{
+     padding: 10px 25px 0 45px;
+}
+.testimonial .stars{
+    font-size: 14px;
+    transform: translateY(-40px);
+}
+.testimonial p{
+    font-size: 11px;
+}
+.testimonial .author img{
+    width: 100px;
+    height: 100px;
+}
+.testimonial .author-name-des p{
+    display: inline;
+    line-height: 0;
+}
+.testimonial .author-name-desc{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.testimonial [class*="col-"]{
+    padding: 0;
+}
+#testimonials .content-box-xs{
+    padding-bottom: 50px;
+}
+
+/******************************************************************************************************************************************************************
+                                                                PRICING SECTION
+******************************************************************************************************************************************************************/
+#pricing .horizontal-heading h2{
+    font-size: 26px;
+    line-height: 25px;
+}
+.pricing-table{
+    padding: 20px 15px;
+}
+#pricing .pricing-table h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#pricing .pricing-table .type{
+    padding-bottom: 5px;
+}
+#pricing .price {
+    display: flex;
+}
+#pricing .price h2{
+    font-size: 32px;
+}
+#pricing .price h2 .per-month{
+    font-size: 10px;
+}
+#pricing .pricing-table p{
+    display: inline-block;
+}
+.pricing-table.pricing-table-black:hover{
+    background: #5c9320;
+    transform: none;
+}
+
+/******************************************************************************************************************************************************************
+                                                                BLOG SECTION
+******************************************************************************************************************************************************************/
+#blogs .vertical-heading h5{
+    font-size: 11px;
+}
+#blogs .vertical-heading h2{
+    font-size: 20px;
+    line-height: 23px;
+}
+#blogs #blog-left p{
+    font-size: 12px;
+}
+#blogs #blog-left .btn-general{
+    padding: 6px 23px;
+    font-size: 10px;
+    margin-left: 210px;
+}
+
+
+/******************************************************************************************************************************************************************
+                                                                CONTACT SECTION
+******************************************************************************************************************************************************************/
+#contacts .vertical-heading h5{
+    font-size: 11px;
+}
+#contacts .vertical-heading h2{
+    line-height: 28px;
+    font-size: 22px;
+} 
+.some-text p{
+    font-size: 11px; 
+}
+.some-text .m-b-30{
+    margin-bottom: 20px;
+}
+.some-text .m-t-30{
+    margin-top: 20px;
+}
+#contacts .row h4,
+#contacts .number p,
+#contacts .mail p,
+#contacts .address i,
+#contacts .address p{
+    text-align: center;
+}
+#contacts .mail p{
+    margin-left: 200px;
+}
+#contacts .number i,
+#contacts .mail i,
+#contacts .address i{
+    margin-left: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************************************************************************************************
+                                                            FOOTER SECTION
+******************************************************************************************************************************************************************/
+.text-center .col-md-12 p{
+    font-size: 11px;
+}
+
+
+
+
+
+
+
